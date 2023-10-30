@@ -30,7 +30,7 @@ public class LoginActionTest{
     public void testLogin(){
         //构建用户信息
         User user = new User();
-        user.setType(AccountType.YINGHUA);
+        user.setAccountType(AccountType.YINGHUA);
         user.setUrl("https://mooc.bwgl.cn/");
         user.setAccount("2151118");
         user.setPassword("02Y4Qtvk");
